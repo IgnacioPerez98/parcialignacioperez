@@ -1,0 +1,7 @@
+.text-box-login{
+  display: flex;
+  margin-left: auto ;
+  margin-right: auto;
+  min-width: 80vw;
+  max-width: 80vw;
+}

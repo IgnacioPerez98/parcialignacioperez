@@ -1,0 +1,6 @@
+.image-header{
+  image-rendering: high-quality;
+  object-fit: scale-down;
+  max-height: 30vh;
+  min-height: 30vh;
+}

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DetailedplayerComponent } from './componentes/detailedplayer/detailedplayer.component';
 import { AllplayersComponent } from './componentes/allplayers/allplayers.component';
 import { AltajugadorComponent } from './componentes/altajugador/altajugador.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AltajugadorComponent } from './componentes/altajugador/altajugador.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
