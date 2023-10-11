@@ -1,1 +1,13 @@
 
+.item-nav:hover{
+  background-color: white;
+  border-radius: 5px;
+
+}
+.ico{
+  max-width: 40px;
+  min-width: 40px;
+}
+.navbar-brand{
+  margin-left: 20px;
+}
