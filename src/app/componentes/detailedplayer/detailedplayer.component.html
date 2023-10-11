@@ -1,0 +1,16 @@
+<div class="card text-center">
+  <div class="card-header">
+    Datos del Jugador
+  </div>
+  <div class="card-img-top">
+    <img src="{{player.foto}}">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{player.nombre}}</h5>
+    <p class="card-text">Posición :{{player.posicion}} </p>
+    <a class="btn btn-primary" (click)="GoHome()" >Volver al listado</a>
+  </div>
+  <div class="card-footer text-muted">
+    AUF Selección Uruguaya.
+  </div>
+</div>

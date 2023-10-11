@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let item of players" class="col-xxl-3 col-md-4 col-12">
+      <div class="card ">
+        <img src="{{item.foto}}" class="card-img-top image-header">
+        <div class="card-body">
+          <h5 class="card-title">Nombre: {{item.nombre}}</h5>
+          <p class="card-text">Posicion:{{item.posicion}}</p>
+          <a class="btn btn-outline-primary" (click)="ViewDetails(item)">Ver detalles</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
