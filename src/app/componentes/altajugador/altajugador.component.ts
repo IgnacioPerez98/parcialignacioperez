@@ -33,6 +33,7 @@ export class AltajugadorComponent {
       this.isOk = true;
     }
     public MarcarSelected(el :string){
+      alert(el);
       this.pathSelectedFoto = el;
     }
 

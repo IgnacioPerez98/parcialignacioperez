@@ -21,7 +21,7 @@
         <div  >
           <h4>Imagen:</h4>
           <select ngModel name="optbox">
-            <optgroup label="images">
+            <optgroup label="Imagenes Disponbles">
               <option *ngFor="let path of this.pathsFotos" value="{{path}}" (click)="MarcarSelected(path)">
                 Imagen {{pathsFotos.indexOf(path)}}
               </option>
@@ -39,8 +39,10 @@
 </div>
 
 <ng-template #error>
-  <div>
-    <p>Error Lista llena !!!</p>
-    <button class="btn btn-primary" (click)="TryAgain()" >Volver</button>
+  <div class="error-msg">
+  <div class="container-fluid">
+    <h4 class="erro-txt">Error Lista llena !!!</h4>
+    <button class="btn btn-danger btn-error" (click)="TryAgain()" >Volver</button>
+  </div>
   </div>
 </ng-template>
