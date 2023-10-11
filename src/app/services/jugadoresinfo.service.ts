@@ -38,9 +38,7 @@ export class JugadoresinfoService {
 
   //2 elems
    arqueros: jugadores[]=[
-      new jugadores("Fernando Muslera", "Arquero", "./assets/Copia de descarga 1.jpeg"),
-      new jugadores("Fernando Muslera", "Arquero", "./assets/Copia de descarga 1.jpeg"),//debug
-      new jugadores("Fernando Muslera", "Arquero", "./assets/Copia de descarga 1.jpeg"),//debug
+      new jugadores("Fernando Muslera", "Arquero", "./assets/Copia de descarga 1.jpeg")
    ]
 
   //7 elems
